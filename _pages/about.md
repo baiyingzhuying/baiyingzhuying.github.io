@@ -21,14 +21,20 @@ redirect_from:
 我对人工智能和金融科技充满热情，自入学以来，积极参与各类科研项目和学术竞赛，曾获得**国家奖学金**（2023-2024年）、**中国人民大学学习优秀奖学金**、**三好学生**、**优秀学生骨干奖学金**等荣誉。我的科研方向涵盖了**大语言模型的垂直领域应用**、**AI for Education**等领域。
 
 # 🎓 Education Background
+- **2022.09 - now**, 中国人民大学，北京，计算机科学与技术（图灵实验班），本科。
+- **2023.02 - now**, 中国人民大学，北京，金融科技实验班（高礼研究院），本科（辅修）。
+- **2023.09 - 2023.12**, UC Davis，California，Computer Science，Exchange Student。
 
-- **排名：** GPA 排名：**1/30**  
-- **成绩均分：** GPA：3.84/4.0  
+# 📖 Basic Information
+
+- **在校成绩：** GPA：3.84/4.0 ，**GPA 排名：1/30** 
 - **语言能力：** 英语能力优异，[托福成绩为109/120](https://baiyingzhuying.github.io/docs/ENGLISHtofel.pdf)（其中：阅读29/30，听力30/30），[GRE成绩为321分](https://baiyingzhuying.github.io/docs/ENGLISHgre.pdf)。曾在加州大学戴维斯分校进行交换学习，且交换期间所有课程成绩均为满绩(A+/A)  
 - **核心课程：** 高等数学 (91, 90)、高等代数 (93, 93)、数据结构与算法 (95, 93)、机器学习 (95)、数字信号处理 (95)、计算机系统基础 (90, 90)、编译原理 (92)、运筹学建模与算法 (94)  
 - **编程能力：** 熟练掌握 C++、Python，熟悉算法与数据结构，抽象能力强，代码风格良好；熟练掌握 PyTorch、Numpy、Pandas，熟悉各类深度学习模型及其编程实现；具备优秀的编程/建模能力，多次获数学建模/数据挖掘比赛奖项（美赛M奖、Kaggle铜牌）  
 - **开发工具：** VS Code，PyCharm，Jupyter Notebook，LaTeX (Overleaf)，Git  
 - **在校荣誉：** 曾获 **国家奖学金**、中国人民大学学习优秀奖学金、中国人民大学优秀学生骨干奖学金、中国人民大学三好学生、中国人民大学优秀学生干部，在校累计获奖逾￥30000
+
+
 
 # 🔍 Research Experience
 
@@ -55,8 +61,7 @@ redirect_from:
 ---
 
 
-
-# 🏆 **竞赛奖项（仅列举省级一等奖及以上）**
+# 🏆 Competition Achievements
 
 - **Kaggle: Chatbot Arena Human Preference Predictions：银牌** *国家级* 2024 &nbsp;&nbsp;[[证明]]([https://btlazzq.github.io/docs/AWARDLMSYS.png](https://baiyingzhuying.github.io/docs/AWARDkaggleLMSYSSliver.png))  
 - **Kaggle: LLM-Detect AI Generated Text：铜牌** *国家级* 2024 &nbsp;&nbsp;[[证明]]([https://btlazzq.github.io/docs/AWARDLLMDetect.png](https://baiyingzhuying.github.io/docs/AWARDkaggleAIGenerateBronze.png))  
@@ -71,8 +76,3 @@ redirect_from:
 - **优秀学生骨干奖学金** *中国人民大学* &nbsp;&nbsp;[[证明]](https://example-link.com)
 - **三好学生** *中国人民大学* &nbsp;&nbsp;[[证明]](https://example-link.com)
 - **优秀学生干部** *中国人民大学* &nbsp;&nbsp;[[证明]](https://example-link.com)
-
-# 📖 Educations
-- **2022.09 - now**, 中国人民大学，北京，计算机科学与技术（图灵实验班），本科。
-- **2023.02 - now**, 中国人民大学，北京，金融科技实验班（高礼研究院），本科（辅修）。
-- **2023.09 - 2023.12**, 美国加利福尼亚州，UC Davis，计算机科学，交换生。
