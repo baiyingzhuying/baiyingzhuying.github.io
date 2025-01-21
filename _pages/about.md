@@ -106,7 +106,9 @@ redirect_from:
      - **Test Time Augmentation策略：** 通过交换Response A和Response B的顺序，在推理阶段进行两轮预测并取平均，减少偏好带来的不平衡问题。
      - **特殊情况的后处理：** 针对log loss对极端值的敏感性，特别处理了Response为空或两者相同的特殊情况，优化了模型的表现。
 - **项目成果：**  
-  * 在1849支参赛队伍中位列第27名，摘得银牌&nbsp;|&nbsp;[证明](https://baiyingzhuying.github.io/docs/AWARDkaggleLMSYSSliver.png)
+  * 在1849支参赛队伍中位列第27名，摘得银牌&nbsp;|&nbsp;<span style="font-size: 16px;">
+<a href="https://baiyingzhuying.github.io/docs/AWARDkaggleLMSYSSliver.png">[证明]</a>
+</span>
 
 ---
 
@@ -126,7 +128,9 @@ redirect_from:
   5. 微调Deberta-v3-base模型，并在隐藏层后添加mean pooling层和线性分类层优化二分类任务。
   6. 最终方案为机器学习模型与Deberta模型的融合。
 - **项目成果：**  
-  * 在4358支参赛队伍中位列第222名，摘得银牌 (222 / 4358)&nbsp;|&nbsp;[证明](https://baiyingzhuying.github.io/docs/AWARDkaggleAIGenerateBronze.png)
+  * 在4358支参赛队伍中位列第222名，摘得银牌 (222 / 4358)&nbsp;|&nbsp;<span style="font-size: 16px;">
+<a href="https://baiyingzhuying.github.io/docs/AWARDkaggleAIGenerateBronze.png">[证明]</a>
+</span>
 
 ---
 
@@ -142,7 +146,9 @@ redirect_from:
   2. 尝试多种回归算法，如CatBoost、XGB、LGBM，最终选择LGBM。
   3. 使用Grid Search和Randomized Search方法优化超参数。
 - **项目成果：**  
-  * 在4436支参赛队伍中位列第223名，摘得银牌 (223 / 4436)&nbsp;|&nbsp;[证明](https://baiyingzhuying.github.io/docs/AWARDkaggleOptiverBronze.png)
+  * 在4436支参赛队伍中位列第223名，摘得银牌 (223 / 4436)&nbsp;|&nbsp;<span style="font-size: 16px;">
+<a href="https://baiyingzhuying.github.io/docs/AWARDkaggleOptiverBronze.png">[证明]</a>
+</span>
 
 ---
 
