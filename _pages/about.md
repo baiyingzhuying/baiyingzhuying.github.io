@@ -38,6 +38,18 @@ redirect_from:
 
 # 🔍 Research Experience
 
+## **💡💡💡 MAIC: 不知道叫什么名字的退课预测** <sub> &nbsp;&nbsp;[[项目主页]](https://mumuyeye.github.io/HaMonitorSentry/README.html) [[项目代码]](https://github.com/mumuyeye/HaMonitorSentry)</sub>
+
+- **时间：** 2024.8 - 至今  
+- **领域：** **LLM垂域应用、AI4Education**  
+- **角色：** 共同第一作者/第一发明人  
+- **研究背景：**  
+- **我们的方法：**  
+- **项目成果：**  
+  * 相关论文已基本完成，预计投稿于 **ACL 2025**（共同第一作者）；相关专利已完成申请（第一发明人）。
+
+---
+
 ## **💡💡💡 SOAY: A Solution-based LLM API-using Methodology for Academic Information Seeking** <sub> &nbsp;&nbsp;[[arXiv]](https://arxiv.org/abs/2405.15165) | [[Code]](https://github.com/RUCKBReasoning/SoAy) | [[Demo]](https://soay.aminer.cn/) </sub>
 
 - **时间：** 2024.1 - 2024.8  
@@ -60,6 +72,111 @@ redirect_from:
 
 ---
 
+## **💡💡💡 A Survey on Prompt Engineering: Taxonomy and Applications** <sub> &nbsp;&nbsp;[[Survey Paper]](https://baiyingzhuying.github.io/docs/LUNWENpromptengineering.pdf)</sub>
+
+- **时间：** 2024.5 - 2024.12  
+- **领域：** **LLM、Prompt Engineering**  
+- **角色：** 本科生作者之一  
+- **研究背景：**  
+  1. 随着大语言模型（LLM）在各种下游任务中展现出卓越的性能，Prompt Engineering逐渐成为一个重要的研究领域，旨在优化用户与LLM之间的交互，以提高其整体性能。
+  2. Prompt作为LLM的输入指令，与模型的响应密切相关，Prompt Engineering通过改进Prompt的内容和结构，增强了LLM的性能，而不需要修改模型本身的参数。
+  3. 然而，目前关于Prompt Engineering的综述多集中于固定情景下的应用，如提升推理性能的Prompt Engineering，缺乏对Prompt Engineering技术和设计的全面总结。
+- **我们的论文：**  
+  1. 本文构建了一个全面的Prompt Engineering技术目录，并总结了这些技术在不同应用中的实际效果。
+  2. 重点研究了离散前缀提示（discrete prefix prompts）而非填空提示（cloze prompts），因为利用前缀提示的现代LLM架构（尤其是decoder-only模型）在多个任务中表现出色。
+  3. 主要关注硬性（离散）提示而非软性（连续）提示，并对Prompt Engineering的范围进行了细化，着重研究如何通过改变Prompt内容来提升模型性能。
+- **项目成果：**  
+  * 相关论文已完成，并已投递于 **TKDE 2025**（本科生作者之一）。
+
+---
+
+## **💡💡💡 Kaggle: LMSYS-Chatbot Arena Human Preference Predictions** <sub> &nbsp;&nbsp;[[比赛介绍]](https://www.kaggle.com/competitions/lmsys-chatbot-arena) [[我们的方案]](https://github.com/baiyingzhuying/LMSYS_scheme_fyy)</sub>
+
+- **时间：** 2024.5 - 2024.8  
+- **领域：** **LLM微调、对话系统偏好预测**  
+- **角色：** 团队(队长)  
+- **研究背景：**  
+  1. 本次比赛旨在通过预测用户在两个人工智能对话系统（LLM）之间的偏好，改进聊天机器人与人类的互动方式，使其更好地符合人类的偏好。
+  2. 参赛者将获得来自Chatbot Arena的对话数据，这些数据由不同的LLM生成回答，挑战是开发一个能够准确预测用户偏好的机器学习模型。
+- **我们的方案：**  
+  1. 开发并优化了一种基于Gemma-2-9b-it模型的对话系统偏好预测模型，提升了用户偏好回复的预测精度：
+     - **模型选择与尝试：** 选择Gemma-2-9b-it作为起始模型，测试过Llama3 8b、Llama3.1 8b等模型，效果不如Gemma-2，猜测原因是Gemma-2在ChatBot-1M数据集的后训练阶段已适应了该领域。
+     - **合理的Prompt截断设计：** 设计了特殊的Prompt截断机制，在对话长度超过最大限制时，保证Prompt、Response A、Response B的比例合理，避免截断导致的信息丢失。
+     - **LoRA微调与优化：** 使用LoRA对Gemma2ForSequenceClassification模型进行微调，将输出从传统的token预测改为分类任务。
+     - **Test Time Augmentation策略：** 通过交换Response A和Response B的顺序，在推理阶段进行两轮预测并取平均，减少偏好带来的不平衡问题。
+     - **特殊情况的后处理：** 针对log loss对极端值的敏感性，特别处理了Response为空或两者相同的特殊情况，优化了模型的表现。
+- **项目成果：**  
+  * 在1849支参赛队伍中位列第27名，摘得银牌&nbsp;|&nbsp;[证明](https://baiyingzhuying.github.io/docs/AWARDkaggleLMSYSSliver.png)
+
+---
+
+## **💡💡💡 Kaggle: LLM-Detect AI Generated Text** <sub> &nbsp;&nbsp;[[比赛介绍]](https://www.kaggle.com/competitions/llm-detect-ai-generated-text)</sub>
+
+- **时间：** 2023.11 - 2024.1  
+- **领域：** **机器学习、LLM生成内容检测**  
+- **角色：** 个人(Solo)  
+- **研究背景：**  
+  1. 随着大语言模型（LLM）的发展，它们生成的文本越来越难以与人类写作区分。本次竞赛旨在推动AI检测技术在实际应用中的研究与透明度。
+  2. 参赛者需开发一个模型，准确判断文章是否由LLM生成。
+- **我们的方案：**  
+  1. 通过拼写错误修正来减少数据噪声。
+  2. 使用KNN聚类筛选与测试数据集相似的训练数据集。
+  3. 特征构建：训练Tokenizer+TF-IDF，构建稀疏矩阵embedding特征。
+  4. 主体采用贝叶斯分类器、随机梯度下降分类器，并结合LGBM和CatBoost模型，提升整体Ensemble效果。
+  5. 微调Deberta-v3-base模型，并在隐藏层后添加mean pooling层和线性分类层优化二分类任务。
+  6. 最终方案为机器学习模型与Deberta模型的融合。
+- **项目成果：**  
+  * 在4358支参赛队伍中位列第222名，摘得银牌 (222 / 4358)&nbsp;|&nbsp;[证明](https://baiyingzhuying.github.io/docs/AWARDkaggleAIGenerateBronze.png)
+
+---
+
+## **💡💡💡 Kaggle: Optiver - Trading at the Close** <sub> &nbsp;&nbsp;[[比赛介绍]](https://www.kaggle.com/competitions/optiver-trading-at-the-close)</sub>
+
+- **时间：** 2024.1 - 2024.3  
+- **领域：** **金融科技、AI for Trading**  
+- **角色：** 团队(主力队员)  
+- **研究背景：**  
+  1. 股票收盘价对于全球经济至关重要。本次比赛挑战是开发一个模型，使用订单簿和股票收盘拍卖数据预测纳斯达克上市股票的收盘价走势。
+- **我们的方案：**  
+  1. 进行“特征工程”，包括特征转换、时序数据处理和特征选择。
+  2. 尝试多种回归算法，如CatBoost、XGB、LGBM，最终选择LGBM。
+  3. 使用Grid Search和Randomized Search方法优化超参数。
+- **项目成果：**  
+  * 在4436支参赛队伍中位列第223名，摘得银牌 (223 / 4436)&nbsp;|&nbsp;[证明](https://baiyingzhuying.github.io/docs/AWARDkaggleOptiverBronze.png)
+
+---
+
+## **💡💡💡 Reshaping Insurance&Preservation Model amidst Extreme Weather** <sub> &nbsp;&nbsp;[[比赛论文]](https://baiyingzhuying.github.io/docs/LUNWENmeisai.pdf)</sub>
+
+- **时间：** 2024.2  
+- **领域：** **数学建模**  
+- **角色：** 团队(主力成员)  
+- **研究背景：**  
+  1. 极端天气事件给保险业带来了挑战和机遇，保险业需要改变经营模式以应对气候风险。
+  2. 开发一个模型评估在极端天气地区承保的可行性，并为社区领导开发一个保护模型，以评估当地历史建筑的保护需求。
+- **我们的论文：**  
+  1. 提出以保险收益率为标准的决策模型。
+  2. 使用层次分析法计算预期损失值(ELV)，并形成风险评估模型与损失评估模型。
+  3. 根据预期收益率给出加州和甘肃的保险可行性建议。
+  4. 综合分析并使用TOPSIS方法进行区域评分，最终得出“应增加对提高抗灾能力的投资”的结论。
+- **项目成果：**  
+  * 在2024年美国大学生数学建模竞赛(MCM/ICM)中获Meritorious Winner (国际一等奖，获奖率7.09%)
+
+---
+
+## **💡💡💡 基于贪心算法的多波束测量测线布设优化** <sub> &nbsp;&nbsp;[[比赛论文]](https://baiyingzhuying.github.io/docs/LUWENguosai.pdf)</sub>
+
+- **时间：** 2023.9  
+- **领域：** **数学建模**  
+- **角色：** 团队(主力成员)  
+- **研究背景：**  
+  1. 海底探测中的多波束测深技术面临测线布设优化问题。测线间距过小会增加冗余数据，过大则降低地形分辨率，因此需要优化测线布设。
+- **我们的论文：**  
+  1. 建立了多波束测深覆盖宽度及相邻条带重叠率的数学模型。
+  2. 提出最优测线布设方案，结合圆锥曲线模型优化测量效率。
+  3. 通过MATLAB可视化数据并简化模型，利用贪心算法和深度优先搜索探索局部最优解，最终给出优良的测线设计方案。
+- **项目成果：**  
+  * 在2023年全国大学生数学建模竞赛中获北京赛区一等奖
 
 # 🏆 Competition Achievements
 
