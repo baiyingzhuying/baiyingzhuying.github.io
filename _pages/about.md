@@ -38,7 +38,7 @@ redirect_from:
 
 # 🔍 Research Experience
 
-## **💡💡💡 MAIC: 不知道叫什么名字的退课预测** <sub> &nbsp;&nbsp;[[项目主页]](https://mumuyeye.github.io/HaMonitorSentry/README.html) [[项目代码]](https://github.com/mumuyeye/HaMonitorSentry)</sub>
+## **💡💡💡 MAIC: ** <sub> &nbsp;&nbsp;[[项目主页]](https://mumuyeye.github.io/HaMonitorSentry/README.html) [[项目代码]](https://github.com/mumuyeye/HaMonitorSentry)</sub>
 
 - **时间：** 2024.8 - 至今  
 - **领域：** **LLM垂域应用、AI4Education**  
