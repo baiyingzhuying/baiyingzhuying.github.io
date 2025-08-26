@@ -57,6 +57,7 @@ redirect_from:
 - **项目成果：**
   * 相关论文已完成，并已投稿于 **NeurIPS 2025**（共同第一作者），初始同行评审分数为5/5/4/3（满分为6）。
 
+---
 
 ## **💡 Understanding Students Dropouts in AI-driven Course using NLP Approaches** 
 
@@ -120,6 +121,8 @@ redirect_from:
 
 ---
 
+# ⚙️ Competitiontion Experience
+
 ## **🥈 Kaggle: LMSYS-Chatbot Arena Human Preference Predictions** <sub> &nbsp;&nbsp;[[比赛介绍]](https://www.kaggle.com/competitions/lmsys-chatbot-arena) [[我们的方案]](https://github.com/baiyingzhuying/LMSYS_scheme_fyy)</sub>
 
 - **时间：** 2024.5 - 2024.8  
@@ -182,7 +185,7 @@ redirect_from:
 
 ---
 
-## **🥉 Reshaping Insurance&Preservation Model amidst Extreme Weather** <sub> &nbsp;&nbsp;[[比赛论文]](https://baiyingzhuying.github.io/docs/LUNWENmeisai.pdf)</sub>
+## **🥇 Reshaping Insurance&Preservation Model amidst Extreme Weather** <sub> &nbsp;&nbsp;[[比赛论文]](https://baiyingzhuying.github.io/docs/LUNWENmeisai.pdf)</sub>
 
 - **时间：** 2024.2  
 - **领域：** **数学建模**  
