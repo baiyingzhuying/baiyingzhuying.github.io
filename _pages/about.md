@@ -38,7 +38,7 @@ redirect_from:
 
 # 🔍 Research Experience
 
-## **💡💡💡 TPP-SD: Accelerating Transformer Point Process Sampling with Speculative Decoding** <sub> &nbsp;&nbsp;[[arXiv]](https://arxiv.org/abs/2507.09252) | [[OpenRevie投稿截图]](https://baiyingzhuying.github.io/docs/OpenReview_TPP-SD.png) </sub>
+## **💡 TPP-SD: Accelerating Transformer Point Process Sampling with Speculative Decoding** <sub> &nbsp;&nbsp;[[arXiv]](https://arxiv.org/abs/2507.09252) | [[OpenRevie投稿截图]](https://baiyingzhuying.github.io/docs/OpenReview_TPP-SD.png) </sub>
 
 - **时间：** 2025.02 - 至今  
 - **领域：** **推测解码、时序点过程**  
@@ -58,7 +58,7 @@ redirect_from:
   * 相关论文已完成，并已投稿于 **NeurIPS 2025**（共同第一作者），初始同行评审分数为5/5/4/3（满分为6）。
 
 
-## **💡💡💡 Understanding Students Dropouts in AI-driven Course using NLP Approaches** 
+## **💡 Understanding Students Dropouts in AI-driven Course using NLP Approaches** 
 
 - **时间：** 2024.11 - 至今  
 - **领域：** **LLM垂域应用、AI4Education、人机交互**  
@@ -80,7 +80,7 @@ redirect_from:
 
 ---
 
-## **💡💡💡 SOAY: A Solution-based LLM API-using Methodology for Academic Information Seeking** <sub> &nbsp;&nbsp;[[arXiv]](https://arxiv.org/abs/2405.15165) | [[Code]](https://github.com/RUCKBReasoning/SoAy) | [[Demo]](https://soay.aminer.cn/) </sub>
+## **💡 SOAY: A Solution-based LLM API-using Methodology for Academic Information Seeking** <sub> &nbsp;&nbsp;[[arXiv]](https://arxiv.org/abs/2405.15165) | [[Code]](https://github.com/RUCKBReasoning/SoAy) | [[Demo]](https://soay.aminer.cn/) </sub>
 
 - **时间：** 2024.1 - 2024.8  
 - **领域：** **LLM垂域应用、AI4Education**  
@@ -102,7 +102,7 @@ redirect_from:
 
 ---
 
-## **💡💡💡 A Survey on Prompt Engineering: Taxonomy and Applications** <sub> &nbsp;&nbsp;[[Survey Paper]](https://baiyingzhuying.github.io/docs/LUNWENpromptengineering.pdf)</sub>
+## **💡 A Survey on Prompt Engineering: Taxonomy and Applications** <sub> &nbsp;&nbsp;[[Survey Paper]](https://baiyingzhuying.github.io/docs/LUNWENpromptengineering.pdf)</sub>
 
 - **时间：** 2024.5 - 2024.12  
 - **领域：** **LLM、Prompt Engineering**  
@@ -120,7 +120,7 @@ redirect_from:
 
 ---
 
-## **💡💡💡 Kaggle: LMSYS-Chatbot Arena Human Preference Predictions** <sub> &nbsp;&nbsp;[[比赛介绍]](https://www.kaggle.com/competitions/lmsys-chatbot-arena) [[我们的方案]](https://github.com/baiyingzhuying/LMSYS_scheme_fyy)</sub>
+## **🥈 Kaggle: LMSYS-Chatbot Arena Human Preference Predictions** <sub> &nbsp;&nbsp;[[比赛介绍]](https://www.kaggle.com/competitions/lmsys-chatbot-arena) [[我们的方案]](https://github.com/baiyingzhuying/LMSYS_scheme_fyy)</sub>
 
 - **时间：** 2024.5 - 2024.8  
 - **领域：** **LLM微调、对话系统偏好预测**  
@@ -136,13 +136,13 @@ redirect_from:
      - **Test Time Augmentation策略：** 通过交换Response A和Response B的顺序，在推理阶段进行两轮预测并取平均，减少偏好带来的不平衡问题。
      - **特殊情况的后处理：** 针对log loss对极端值的敏感性，特别处理了Response为空或两者相同的特殊情况，优化了模型的表现。
 - **项目成果：**  
-  * 在1849支参赛队伍中位列第27名，摘得银牌&nbsp;|&nbsp;<span style="font-size: 16px;">
+  * 在1849支参赛队伍中位列第27名，摘得一枚银牌&nbsp;|&nbsp;<span style="font-size: 16px;">
 <a href="https://baiyingzhuying.github.io/docs/AWARDkaggleLMSYSSliver.png">[证明]</a>
 </span>
 
 ---
 
-## **💡💡💡 Kaggle: LLM-Detect AI Generated Text** <sub> &nbsp;&nbsp;[[比赛介绍]](https://www.kaggle.com/competitions/llm-detect-ai-generated-text)</sub>
+## **🥉 Kaggle: LLM-Detect AI Generated Text** <sub> &nbsp;&nbsp;[[比赛介绍]](https://www.kaggle.com/competitions/llm-detect-ai-generated-text)</sub>
 
 - **时间：** 2023.11 - 2024.1  
 - **领域：** **机器学习、LLM生成内容检测**  
@@ -158,13 +158,13 @@ redirect_from:
   5. 微调Deberta-v3-base模型，并在隐藏层后添加mean pooling层和线性分类层优化二分类任务。
   6. 最终方案为机器学习模型与Deberta模型的融合。
 - **项目成果：**  
-  * 在4358支参赛队伍中位列第222名，摘得银牌 (222 / 4358)&nbsp;|&nbsp;<span style="font-size: 16px;">
+  * 在4358支参赛队伍中位列第222名，摘得一枚铜牌 (222 / 4358)&nbsp;|&nbsp;<span style="font-size: 16px;">
 <a href="https://baiyingzhuying.github.io/docs/AWARDkaggleAIGenerateBronze.png">[证明]</a>
 </span>
 
 ---
 
-## **💡💡💡 Kaggle: Optiver - Trading at the Close** <sub> &nbsp;&nbsp;[[比赛介绍]](https://www.kaggle.com/competitions/optiver-trading-at-the-close)</sub>
+## **🥉 Kaggle: Optiver - Trading at the Close** <sub> &nbsp;&nbsp;[[比赛介绍]](https://www.kaggle.com/competitions/optiver-trading-at-the-close)</sub>
 
 - **时间：** 2024.1 - 2024.3  
 - **领域：** **金融科技、AI for Trading**  
@@ -176,13 +176,13 @@ redirect_from:
   2. 尝试多种回归算法，如CatBoost、XGB、LGBM，最终选择LGBM。
   3. 使用Grid Search和Randomized Search方法优化超参数。
 - **项目成果：**  
-  * 在4436支参赛队伍中位列第223名，摘得银牌 (223 / 4436)&nbsp;|&nbsp;<span style="font-size: 16px;">
+  * 在4436支参赛队伍中位列第223名，摘得一枚铜牌 (223 / 4436)&nbsp;|&nbsp;<span style="font-size: 16px;">
 <a href="https://baiyingzhuying.github.io/docs/AWARDkaggleOptiverBronze.png">[证明]</a>
 </span>
 
 ---
 
-## **💡💡💡 Reshaping Insurance&Preservation Model amidst Extreme Weather** <sub> &nbsp;&nbsp;[[比赛论文]](https://baiyingzhuying.github.io/docs/LUNWENmeisai.pdf)</sub>
+## **🥉 Reshaping Insurance&Preservation Model amidst Extreme Weather** <sub> &nbsp;&nbsp;[[比赛论文]](https://baiyingzhuying.github.io/docs/LUNWENmeisai.pdf)</sub>
 
 - **时间：** 2024.2  
 - **领域：** **数学建模**  
@@ -200,7 +200,7 @@ redirect_from:
 
 ---
 
-## **💡💡💡 基于贪心算法的多波束测量测线布设优化** <sub> &nbsp;&nbsp;[[比赛论文]](https://baiyingzhuying.github.io/docs/LUWENguosai.pdf)</sub>
+## **🥇 基于贪心算法的多波束测量测线布设优化** <sub> &nbsp;&nbsp;[[比赛论文]](https://baiyingzhuying.github.io/docs/LUWENguosai.pdf)</sub>
 
 - **时间：** 2023.9  
 - **领域：** **数学建模**  
@@ -216,11 +216,11 @@ redirect_from:
 
 # 🏆 Competition Achievements
 
-- **Kaggle: Chatbot Arena Human Preference Predictions：银牌** *国家级* 2024 &nbsp;&nbsp;[[证明]]([https://btlazzq.github.io/docs/AWARDLMSYS.png](https://baiyingzhuying.github.io/docs/AWARDkaggleLMSYSSliver.png))  
-- **Kaggle: LLM-Detect AI Generated Text：铜牌** *国家级* 2024 &nbsp;&nbsp;[[证明]]([https://btlazzq.github.io/docs/AWARDLLMDetect.png](https://baiyingzhuying.github.io/docs/AWARDkaggleAIGenerateBronze.png))  
-- **Kaggle: Optiver - Trading at the Close：铜牌** *国家级* 2024 &nbsp;&nbsp;[[证明]]([https://btlazzq.github.io/docs/AWARDOptiver.png](https://baiyingzhuying.github.io/docs/AWARDkaggleOptiverBronze.png))  
-- **美国大学生数学建模竞赛（MCM/ICM）：M奖** *国家级* 2024 &nbsp;&nbsp; [[证明]](https://example-link.com)
-- **全国大学生数学建模竞赛（北京赛区）：一等奖** *省部级* 2023 &nbsp;&nbsp;[[证明]](https://example-link.com)
+- **Kaggle: Chatbot Arena Human Preference Predictions：银牌** *国家级* 2024 &nbsp;&nbsp;[[证明]](https://baiyingzhuying.github.io/docs/AWARDkaggleLMSYSSliver.png)  
+- **Kaggle: LLM-Detect AI Generated Text：铜牌** *国家级* 2024 &nbsp;&nbsp;[[证明]](https://baiyingzhuying.github.io/docs/AWARDkaggleAIGenerateBronze.png)  
+- **Kaggle: Optiver - Trading at the Close：铜牌** *国家级* 2024 &nbsp;&nbsp;[[证明]](https://baiyingzhuying.github.io/docs/AWARDkaggleOptiverBronze.png)  
+- **美国大学生数学建模竞赛（MCM/ICM）：M奖** *国家级* 2024 &nbsp;&nbsp; [[证明]](https://baiyingzhuying.github.io/docs/AWARDmeisai.png)
+- **全国大学生数学建模竞赛（北京赛区）：一等奖** *省部级* 2023 &nbsp;&nbsp;[[证明]](https://baiyingzhuying.github.io/docs/AWARDguosai.png)
  
 # 🥇 Scholarships and Honors
 
